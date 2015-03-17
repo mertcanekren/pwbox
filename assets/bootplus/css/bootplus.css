@@ -57,6 +57,20 @@ section {
   display: block;
 }
 
+section{
+    padding: 19px;
+    border: 1px solid #d8d8d8;
+    background-color: #ffffff;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
 audio,
 canvas,
 video {
@@ -231,7 +245,7 @@ body {
   font-size: 13px;
   line-height: 20px;
   color: #444444;
-  background-color: #F0F0F0;
+  background-color: #F4F4F4;
 }
 
 a {
@@ -1110,7 +1124,7 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
-  width: 206px;
+  width: 406px;
 }
 
 textarea {
