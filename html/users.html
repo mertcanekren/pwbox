@@ -62,8 +62,8 @@
 
                 </ul>
                 <ul class="nav">
-                    <li class="active"><a href="#">Passwords</a></li>
-                    <li><a href="users.html">Users</a></li>
+                    <li><a href="index.html">Passwords</a></li>
+                    <li class="active"><a href="#about">Users</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -76,8 +76,8 @@
             <div class="sidebar-nav">
                 <ul class="nav nav-list">
                     <li class="nav-header">Menu</li>
-                    <li><a href="index.html">Passwords</a></li>
-                    <li class="active"><a href="new-password.html">Add New Password</a></li>
+                    <li class="active"><a href="users.html">Users</a></li>
+                    <li><a href="new-user.html">Add New User</a></li>
                 </ul>
             </div>
         </div>
@@ -85,32 +85,36 @@
         <div class="span9" >
             <section>
                 <div class="page-header">
-                    <h1>Add New Passwords</h1>
+                    <h1>Users</h1>
                 </div>
 
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>User Title</th>
+                        <th>Process</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Christophe Bartell</td>
+                        <td><button type="button" class="btn btn-primary">Edit</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Larry the Bird</td>
+                        <td></td>
 
-
-                <form class="form-horizontal">
-                <div class="control-group">
-                    <label class="control-label" for="password_label" >Password Label</label>
-                    <div class="controls">
-                        <input type="text" id="password_label" placeholder="Password Label" name="passwprd_label">
-                    </div>
-                </div>
-                <div class="control-group">
-                    <label class="control-label" for="password" >Password</label>
-                    <div class="controls">
-                        <input type="text" id="password" placeholder="password" name="password" >
-                    </div>
-                </div>
-                <div class="control-group">
-                    <label class="control-label"></label>
-                    <div class="controls">
-                        <button type="submit" class="btn">Submit</button>
-                    </div>
-                </div>
-                </form>
-
+                    </tr>
+                    </tbody>
+                </table>
             </section>
         </div>
     </div>
